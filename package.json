@@ -1,0 +1,21 @@
+{
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "A tutorial project for learning MERN stack",
+  "main": "server.js",
+  "repository": "https://github.com/cypherius17/Tutorial-MERN-Shopping-List",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4"
+  },
+  "script": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

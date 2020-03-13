@@ -1,0 +1,10 @@
+node_modules/
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
