@@ -7,13 +7,19 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
     "concurrently": "^5.1.0",
+    "create-react-app": "^3.4.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.4"
+    "mongoose": "^5.9.4",
+    "reactstrap": "^8.4.1"
   },
-  "script": {
+  "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
